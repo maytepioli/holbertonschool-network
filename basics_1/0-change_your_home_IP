@@ -1,4 +1,4 @@
-!/usr/bin/env bash
+#!/usr/bin/env bash
 # Configura localhost y facebook.com para resolver IP específicas.
 
 # Copia de seguridad /etc/hosts
