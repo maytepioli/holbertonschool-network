@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Muestra todas las IP IPv4 activas en la máquina usando ifconfig
+
+# Utilice el comando 'ifconfig' para mostrar las direcciones IPv4 y filtrarlas.
+ifconfig | grep -oP 'inet \K\d+(\.\d+){3}'
